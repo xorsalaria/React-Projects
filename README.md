@@ -1,4 +1,4 @@
-### How create a React App
+### How to create a React App
 
 * open terminal (make sure you have the Node and npm installed </br>
 * Type: create-react-app sample-app(this your app name.</br>
