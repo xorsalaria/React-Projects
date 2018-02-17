@@ -1,0 +1,81 @@
+// Sajjad Salaria (17-02-2018)
+
+
+
+body {
+  fornt-family: 'Roboto', 'Sans Serif';
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #03A9F4;
+  padding: 14px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+h1, h2 {
+  font-weight: 300;
+}
+
+header > h1 {
+  font-weight: 300;
+  font-size: 24px;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+H2 {
+  font-size: 24px;
+  margin: 24px 0;
+}
+
+h2> .currency {
+  color: #028801;
+}
+
+.principal {
+  color: #028801;
+}
+
+.interest {
+  color: #EF6C00;
+}
+
+input[type=text] {
+  -webkit-appearance: none;
+  width: 150px;
+  height: 24px;
+  padding: 2px 8px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  -webkit-box-shadow: none;
+  box-shadow: npne;
+}
+
+Label {
+  display: inline-block;;
+  width: 80px;
+  text-align: right;
+  margin-right: 4px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.currency::before {
+  content:"$";
+}
+
+.left {
+    text-align: left;
+}
+
+.form > div {
+    margin: 6px 0;
+}
